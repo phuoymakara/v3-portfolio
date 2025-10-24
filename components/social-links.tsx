@@ -15,7 +15,7 @@ export function SocialLinks() {
             </div>
             <div className="flex-1">
               <p className="font-semibold">Twitter</p>
-              <p className="text-sm text-muted-foreground">@yourhandle</p>
+              <p className="text-sm text-muted-foreground">@mark</p>
             </div>
           </div>
           <Button variant="outline" aria-label="twitter" size="sm" className="w-full mt-4" asChild>
@@ -49,7 +49,7 @@ export function SocialLinks() {
             </div>
             <div className="flex-1">
               <p className="font-semibold">LinkedIn</p>
-              <p className="text-sm text-muted-foreground">Your Name</p>
+              <p className="text-sm text-muted-foreground">Mark</p>
             </div>
           </div>
           <Button variant="outline" aria-label="linkedin" size="sm" className="w-full mt-4" asChild>
