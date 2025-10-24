@@ -26,7 +26,7 @@ export function BentoGrid() {
         </div>
       </Card>
 
-      {/* Map card */}
+      {/* Map card A*/}
       <Card className="overflow-hidden group hover:shadow-lg transition-shadow">
         <div className="relative h-full w-full">
           <img
