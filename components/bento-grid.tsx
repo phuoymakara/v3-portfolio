@@ -35,7 +35,7 @@ export function BentoGrid() {
             className="h-full w-full object-cover group-hover:scale-105 transition-transform"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
-            <p className="text-white font-semibold">San Francisco</p>
+            <p className="text-white font-semibold">Phnom Penh</p>
           </div>
         </div>
       </Card>

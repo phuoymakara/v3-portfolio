@@ -31,11 +31,11 @@ export function SocialLinks() {
             </div>
             <div className="flex-1">
               <p className="font-semibold">GitHub</p>
-              <p className="text-sm text-muted-foreground">@yourhandle</p>
+              <p className="text-sm text-muted-foreground">@phuoymakara</p>
             </div>
           </div>
           <Button variant="ghost" size="sm" className="w-full mt-4" asChild>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/phuoymakara" target="_blank" rel="noopener noreferrer">
               Follow
             </a>
           </Button>
@@ -65,11 +65,11 @@ export function SocialLinks() {
             </div>
             <div className="flex-1">
               <p className="font-semibold">Email</p>
-              <p className="text-sm text-muted-foreground">hello@example.com</p>
+              <p className="text-sm text-muted-foreground">phuoymakara@gmail.com</p>
             </div>
           </div>
           <Button variant="ghost" size="sm" className="w-full mt-4" asChild>
-            <a href="mailto:hello@example.com">Send Email</a>
+            <a href="mailto:phuoymakara@gmail.com">Send Email</a>
           </Button>
         </Card>
       </div>

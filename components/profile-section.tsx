@@ -7,14 +7,14 @@ export function ProfileSection() {
     <div className="space-y-6">
       <div className="flex items-start gap-4">
         <Avatar className="h-24 w-24 border-2 border-border">
-          <AvatarImage src="/developer-avatar.png" alt="Profile" />
-          <AvatarFallback>YN</AvatarFallback>
+          <AvatarImage src="https://i.pinimg.com/736x/18/e9/ac/18e9ac3999b64780b9b70218cad2ac9a.jpg" alt="Profile" />
+          <AvatarFallback>MB</AvatarFallback>
         </Avatar>
       </div>
 
       <div className="space-y-4">
         <div>
-          <h1 className="text-balance text-4xl font-bold tracking-tight">Your Name</h1>
+          <h1 className="text-balance text-4xl font-bold tracking-tight">Mark Bee</h1>
           <p className="mt-2 text-lg text-muted-foreground">Full Stack Developer</p>
         </div>
 
@@ -41,8 +41,8 @@ export function ProfileSection() {
           <p className="text-sm text-muted-foreground">Member of @vercel @nextjs @react</p>
           <div className="flex items-center gap-2">
             <Mail className="h-4 w-4 text-muted-foreground" />
-            <a href="mailto:hello@example.com" className="text-sm text-foreground hover:text-primary transition-colors">
-              hello@example.com
+            <a href="mailto:phuoymakara@gmail.com" className="text-sm text-foreground hover:text-primary transition-colors">
+              phuoymakara@gmail.com
             </a>
           </div>
         </div>
@@ -55,7 +55,7 @@ export function ProfileSection() {
             </a>
           </Button>
           <Button variant="outline" size="sm" asChild>
-            <a href="mailto:hello@example.com">Contact</a>
+            <a href="mailto:phuoymakara@gmail.com">Contact</a>
           </Button>
         </div>
       </div>
