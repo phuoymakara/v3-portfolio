@@ -74,7 +74,7 @@ export function BentoGrid() {
       <Card className="md:col-span-2 p-6 bg-card hover:shadow-lg transition-shadow py-0">
         <div className="space-y-3">
           <div className="flex items-center justify-between">
-            <h3 className="font-semibold">Latest Updates</h3>
+            <h3 className="font-semibold text-lg">Latest Updates</h3>
             <span className="text-xs text-muted-foreground">Oct 2025</span>
           </div>
           <ul className="space-y-2 text-sm">

@@ -1,6 +1,7 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Button } from "@/components/ui/button"
 import { Github, Mail } from "lucide-react"
+import Image from "next/image"
 import Link from "next/link"
 
 export function ProfileSection() {
@@ -58,6 +59,16 @@ export function ProfileSection() {
           <Button variant="outline" aria-label="mail" size="sm" asChild>
             <Link href="mailto:phuoymakara@gmail.com">Contact</Link>
           </Button>
+        </div>
+        <div className="flex gap-3 pt-2">
+          <span>Inspired by </span>
+          <Image
+            src="./bento.png" 
+            alt="Bento Me"
+            className="w-6 h-6 rounded-lg"
+            width={10}
+            height={10}
+          />
         </div>
       </div>
     </div>

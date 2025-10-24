@@ -3,9 +3,8 @@ import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 import Script from 'next/script';
 
-// import { Geist, Geist_Mono } from 'next/font/google'
-// const _geist = Geist({ subsets: ["latin"] });
-// const _geistMono = Geist_Mono({ subsets: ["latin"] });
+import { Open_Sans } from 'next/font/google'
+const openSans = Open_Sans({ subsets: ['latin'], weight: ['400', '600', '700'] })
 
 export const metadata: Metadata = {
   title: "Portfolio | Makara",
@@ -23,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`font-sans antialiased`}>
+      <body className={openSans.className}>
         {children}
         <Analytics />
         <Script 
