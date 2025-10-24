@@ -17,7 +17,7 @@ export function BentoGrid() {
       </Card>
 
       {/* Avatar card */}
-      <Card className="overflow-hidden group hover:shadow-lg transition-shadow">
+      <Card className="overflow-hidden group hover:shadow-lg transition-shadow py-0">
         <div className="relative h-full w-full bg-gradient-to-br from-accent/20 to-primary/20">
           <Image
             src="/anime-character-avatar.png"
@@ -28,7 +28,7 @@ export function BentoGrid() {
       </Card>
 
       {/* Map card */}
-      <Card className="overflow-hidden group hover:shadow-lg transition-shadow">
+      <Card className="overflow-hidden group hover:shadow-lg transition-shadow py-0">
         <div className="relative h-full w-full">
           <Image
             src="/world-map-location.jpg"
@@ -42,7 +42,7 @@ export function BentoGrid() {
       </Card>
 
       {/* Conference photo */}
-      <Card className="overflow-hidden group hover:shadow-lg transition-shadow">
+      <Card className="overflow-hidden group hover:shadow-lg transition-shadow py-0">
         <div className="relative h-full w-full bg-muted">
           <Image
             src="/tech-conference-presentation.png"
@@ -53,26 +53,15 @@ export function BentoGrid() {
       </Card>
 
       {/* GitHub contributions */}
-      <Card className="p-4 flex flex-col justify-between hover:shadow-lg transition-shadow">
-        <div className="flex items-center gap-2 mb-3">
+      <Card className="p-4 flex flex-col justify-between hover:shadow-lg transition-shadow py-0 bg-[url('/git-status.png')] bg-cover bg-no-repeat">
+        {/* <div className="flex items-center gap-2 mb-3 text-white">
           <Github className="h-5 w-5" />
           <span className="font-semibold">GitHub</span>
-        </div>
-        <div className="grid grid-cols-10 gap-1">
-          {Array.from({ length: 50 }).map((_, i) => (
-            <div
-              key={i}
-              className="aspect-square rounded-sm"
-              style={{
-                backgroundColor: `hsl(var(--primary) / ${Math.random() > 0.3 ? Math.random() * 0.8 + 0.2 : 0.1})`,
-              }}
-            />
-          ))}
-        </div>
+        </div> */}
       </Card>
 
       {/* Project showcase */}
-      <Card className="overflow-hidden group hover:shadow-lg transition-shadow">
+      <Card className="overflow-hidden group hover:shadow-lg transition-shadow py-0">
         <div className="relative h-full w-full bg-gradient-to-br from-red-500/80 to-red-700/80 flex items-center justify-center">
           <div className="text-white text-center p-4">
             <div className="text-4xl mb-2">🎨</div>
@@ -82,11 +71,11 @@ export function BentoGrid() {
       </Card>
 
       {/* News/Updates card */}
-      <Card className="md:col-span-2 p-6 bg-card hover:shadow-lg transition-shadow">
+      <Card className="md:col-span-2 p-6 bg-card hover:shadow-lg transition-shadow py-0">
         <div className="space-y-3">
           <div className="flex items-center justify-between">
             <h3 className="font-semibold">Latest Updates</h3>
-            <span className="text-xs text-muted-foreground">Dec 2024</span>
+            <span className="text-xs text-muted-foreground">Oct 2025</span>
           </div>
           <ul className="space-y-2 text-sm">
             <li className="flex items-start gap-2">
@@ -106,7 +95,7 @@ export function BentoGrid() {
       </Card>
 
       {/* Tech stack card */}
-      <Card className="p-6 bg-gradient-to-br from-primary/10 to-accent/10 hover:shadow-lg transition-shadow">
+      <Card className="p-6 bg-gradient-to-br from-primary/10 to-accent/10 hover:shadow-lg transition-shadow py-0">
         <div className="h-full flex flex-col justify-center items-center text-center gap-3">
           <div className="text-3xl">⚡</div>
           <div>

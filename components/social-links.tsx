@@ -18,7 +18,7 @@ export function SocialLinks() {
               <p className="text-sm text-muted-foreground">@yourhandle</p>
             </div>
           </div>
-          <Button variant="ghost" aria-label="twitter" size="sm" className="w-full mt-4" asChild>
+          <Button variant="outline" aria-label="twitter" size="sm" className="w-full mt-4" asChild>
             <Link href="https://twitter.com" target="_blank" rel="noopener noreferrer">
               Follow
             </Link>
@@ -35,7 +35,7 @@ export function SocialLinks() {
               <p className="text-sm text-muted-foreground">@phuoymakara</p>
             </div>
           </div>
-          <Button variant="ghost" aria-label="github" size="sm" className="w-full mt-4" asChild>
+          <Button variant="outline" aria-label="github" size="sm" className="w-full mt-4" asChild>
             <Link href="https://github.com/phuoymakara" target="_blank" rel="noopener noreferrer">
               Follow
             </Link>
@@ -52,7 +52,7 @@ export function SocialLinks() {
               <p className="text-sm text-muted-foreground">Your Name</p>
             </div>
           </div>
-          <Button variant="ghost" aria-label="linkedin" size="sm" className="w-full mt-4" asChild>
+          <Button variant="outline" aria-label="linkedin" size="sm" className="w-full mt-4" asChild>
             <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
               Connect
             </Link>
@@ -69,7 +69,7 @@ export function SocialLinks() {
               <p className="text-sm text-muted-foreground">phuoymakara@gmail.com</p>
             </div>
           </div>
-          <Button variant="ghost" aria-label="mail" size="sm" className="w-full mt-4" asChild>
+          <Button variant="outline" aria-label="mail" size="sm" className="w-full mt-4" asChild>
             <a href="mailto:phuoymakara@gmail.com">Send Email</a>
           </Button>
         </Card>
