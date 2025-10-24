@@ -1,6 +1,7 @@
 import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Twitter, Github, Linkedin, Mail } from "lucide-react"
+import Link from "next/link"
 
 export function SocialLinks() {
   return (
@@ -17,10 +18,10 @@ export function SocialLinks() {
               <p className="text-sm text-muted-foreground">@yourhandle</p>
             </div>
           </div>
-          <Button variant="ghost" size="sm" className="w-full mt-4" asChild>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+          <Button variant="ghost" aria-label="twitter" size="sm" className="w-full mt-4" asChild>
+            <Link href="https://twitter.com" target="_blank" rel="noopener noreferrer">
               Follow
-            </a>
+            </Link>
           </Button>
         </Card>
 
@@ -34,10 +35,10 @@ export function SocialLinks() {
               <p className="text-sm text-muted-foreground">@phuoymakara</p>
             </div>
           </div>
-          <Button variant="ghost" size="sm" className="w-full mt-4" asChild>
-            <a href="https://github.com/phuoymakara" target="_blank" rel="noopener noreferrer">
+          <Button variant="ghost" aria-label="github" size="sm" className="w-full mt-4" asChild>
+            <Link href="https://github.com/phuoymakara" target="_blank" rel="noopener noreferrer">
               Follow
-            </a>
+            </Link>
           </Button>
         </Card>
 
@@ -51,10 +52,10 @@ export function SocialLinks() {
               <p className="text-sm text-muted-foreground">Your Name</p>
             </div>
           </div>
-          <Button variant="ghost" size="sm" className="w-full mt-4" asChild>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+          <Button variant="ghost" aria-label="linkedin" size="sm" className="w-full mt-4" asChild>
+            <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
               Connect
-            </a>
+            </Link>
           </Button>
         </Card>
 
@@ -68,7 +69,7 @@ export function SocialLinks() {
               <p className="text-sm text-muted-foreground">phuoymakara@gmail.com</p>
             </div>
           </div>
-          <Button variant="ghost" size="sm" className="w-full mt-4" asChild>
+          <Button variant="ghost" aria-label="mail" size="sm" className="w-full mt-4" asChild>
             <a href="mailto:phuoymakara@gmail.com">Send Email</a>
           </Button>
         </Card>

@@ -1,13 +1,14 @@
 import { Card } from "@/components/ui/card"
 import { Github } from "lucide-react"
+import Image from "next/image"
 
 export function BentoGrid() {
   return (
     <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3 auto-rows-[180px]">
       {/* Large featured image */}
-      <Card className="md:col-span-2 lg:row-span-2 overflow-hidden group hover:shadow-lg transition-shadow">
+      <Card className="md:col-span-2 lg:row-span-2 overflow-hidden group hover:shadow-lg transition-shadow py-0">
         <div className="relative h-full w-full bg-gradient-to-br from-primary/10 to-accent/10">
-          <img
+          <Image
             src="/coding-workspace-setup.jpg"
             alt="Featured project"
             className="h-full w-full object-cover opacity-90 group-hover:opacity-100 transition-opacity"
@@ -18,7 +19,7 @@ export function BentoGrid() {
       {/* Avatar card */}
       <Card className="overflow-hidden group hover:shadow-lg transition-shadow">
         <div className="relative h-full w-full bg-gradient-to-br from-accent/20 to-primary/20">
-          <img
+          <Image
             src="/anime-character-avatar.png"
             alt="Avatar"
             className="h-full w-full object-cover group-hover:scale-105 transition-transform"
@@ -26,10 +27,10 @@ export function BentoGrid() {
         </div>
       </Card>
 
-      {/* Map card A*/}
+      {/* Map card */}
       <Card className="overflow-hidden group hover:shadow-lg transition-shadow">
         <div className="relative h-full w-full">
-          <img
+          <Image
             src="/world-map-location.jpg"
             alt="Location"
             className="h-full w-full object-cover group-hover:scale-105 transition-transform"
@@ -43,7 +44,7 @@ export function BentoGrid() {
       {/* Conference photo */}
       <Card className="overflow-hidden group hover:shadow-lg transition-shadow">
         <div className="relative h-full w-full bg-muted">
-          <img
+          <Image
             src="/tech-conference-presentation.png"
             alt="Conference"
             className="h-full w-full object-cover group-hover:scale-105 transition-transform"

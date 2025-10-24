@@ -1,6 +1,7 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Button } from "@/components/ui/button"
 import { Github, Mail } from "lucide-react"
+import Link from "next/link"
 
 export function ProfileSection() {
   return (
@@ -41,21 +42,21 @@ export function ProfileSection() {
           <p className="text-sm text-muted-foreground">Member of @vercel @nextjs @react</p>
           <div className="flex items-center gap-2">
             <Mail className="h-4 w-4 text-muted-foreground" />
-            <a href="mailto:phuoymakara@gmail.com" className="text-sm text-foreground hover:text-primary transition-colors">
+            <Link href="mailto:phuoymakara@gmail.com" className="text-sm text-foreground hover:text-primary transition-colors">
               phuoymakara@gmail.com
-            </a>
+            </Link>
           </div>
         </div>
 
         <div className="flex gap-3 pt-2">
-          <Button variant="default" size="sm" asChild>
-            <a href="https://github.com/phuoymakara" target="_blank" rel="noopener noreferrer">
+          <Button variant="default" size="sm" aria-label="github" asChild>
+            <Link href="https://github.com/phuoymakara" target="_blank" rel="noopener noreferrer">
               <Github className="mr-2 h-4 w-4" />
               GitHub
-            </a>
+            </Link>
           </Button>
-          <Button variant="outline" size="sm" asChild>
-            <a href="mailto:phuoymakara@gmail.com">Contact</a>
+          <Button variant="outline" aria-label="mail" size="sm" asChild>
+            <Link href="mailto:phuoymakara@gmail.com">Contact</Link>
           </Button>
         </div>
       </div>
