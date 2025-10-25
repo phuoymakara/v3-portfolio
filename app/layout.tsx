@@ -3,13 +3,12 @@ import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 import Script from 'next/script';
 
-import { Open_Sans } from 'next/font/google'
-const openSans = Open_Sans({ subsets: ['latin'], weight: ['400', '600', '700'] })
-
+import { Nunito } from 'next/font/google'
+const nunito = Nunito({ subsets: ['latin'], weight: ['400', '600', '700'] })  
 export const metadata: Metadata = {
   title: "Portfolio | Makara",
   description: "A professionalism portfolio",
-  generator: "v2",
+  // generator: "v2",
   icons:{
     icon: 'https://i.pinimg.com/736x/18/e9/ac/18e9ac3999b64780b9b70218cad2ac9a.jpg',
   }
@@ -22,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={openSans.className}>
+      <body className={nunito.className}>
         {children}
         <Analytics />
         <Script 

@@ -1,5 +1,4 @@
 import { Card } from "@/components/ui/card"
-import { Github } from "lucide-react"
 import Image from "next/image"
 
 export function BentoGrid() {
@@ -71,7 +70,7 @@ export function BentoGrid() {
       </Card>
 
       {/* News/Updates card */}
-      <Card className="md:col-span-2 p-6 bg-card hover:shadow-lg transition-shadow py-0">
+      <Card className="md:col-span-2 bg-card hover:shadow-lg transition-shadow p-6">
         <div className="space-y-3">
           <div className="flex items-center justify-between">
             <h3 className="font-semibold text-lg">Latest Updates</h3>
